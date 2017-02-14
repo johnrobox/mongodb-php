@@ -69,7 +69,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" id="registerButtonModal">Register</button>
+                        <button type="button" class="btn btn-success" id="registerButtonModal">Register</button>
                     </div>
                 </div>
             </div>

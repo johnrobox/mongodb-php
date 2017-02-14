@@ -34,4 +34,16 @@ class Classes {
         return $response;
     }
     
+    
+    public function updateData($condition, $document) {
+        $this->connect()->update($condition, $document);
+        $response['inserted'] = true;
+        return $response;
+    }
+    
+    public function deleteData($condition) {
+        $this->connect()->remove($condition);
+        return $response['deleted'] = true;
+    }
+    
 }

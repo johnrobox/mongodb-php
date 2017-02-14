@@ -37,7 +37,7 @@
                 </td>
                 <td>
                     <button class="btn btn-success btn-xs updateMemberButton" id_value="<?php echo $member['_id']; ?>">Update</button>
-                    <button class="btn btn-danger btn-xs deleteMemberButton" id_value="<?php echo $member['_id']; ?>">Delete</button>
+                    <button class="btn btn-danger btn-xs deleteMemberButton" contact_number="<?php echo $member['contact'];?>" id_value="<?php echo $member['_id']; ?>">Delete</button>
                 </td>
             </tr>
             <?php } ?>
